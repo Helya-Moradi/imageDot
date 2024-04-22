@@ -1,0 +1,25 @@
+:root{
+    --margin: 2.5rem;
+}
+
+body{
+    margin: 0;
+}
+
+canvas{
+    display: block;
+}
+
+div{
+    width: calc(100% - var(--margin)*2);
+    height: calc(100vh - var(--margin)*2);
+    font-size: 2rem;
+    border: 2px dashed gray;
+    border-radius: .7rem;
+    margin: var(--margin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    pointer-events: none;
+}
